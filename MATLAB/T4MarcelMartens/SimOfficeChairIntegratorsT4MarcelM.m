@@ -79,3 +79,17 @@ xlabel("tid [10^-4 s]")			                                     % x-ettikett
 grid on											            		 % rutnät på
 legend('show')											             % funktionsettiketter på
 
+% Generell text för figuren
+instructionText = "Stäng figur för att visa nästa!";
+annotation('textbox', [0.47, 0.9, 0.1, 0.1], ...
+    'String', instructionText, ...
+    'HorizontalAlignment', 'center', ...
+    'FontSize', 12, 'FontWeight', 'bold', ...
+    'EdgeColor', 'none');
+
+waitfor(gcf)							% väntar på på att figuren stängs
+
+% plot och konfigurering av grafegenskaper (elek & mek)
+
+
+
