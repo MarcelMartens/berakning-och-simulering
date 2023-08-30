@@ -6,6 +6,7 @@
 
 %% parametrisering av komponenter
 V_in=10;
+%%
 I_in=1e-3;
 R=1e-1;
 C=1e-6;
